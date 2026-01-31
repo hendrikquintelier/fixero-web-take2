@@ -1,0 +1,11 @@
+:root {
+  /* Mobile-first breakpoints */
+  --bp-sm: 480px;
+  --bp-md: 768px;
+  --bp-lg: 1024px;
+
+  /* Responsive container widths */
+  --container-sm: 640px;
+  --container-md: 880px;
+  --container-lg: 1120px;
+}

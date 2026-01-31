@@ -1,0 +1,89 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+
+  background: rgba(247, 248, 250, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+
+  border-bottom: 1px solid rgba(17, 24, 39, 0.08);
+}
+
+.inner {
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+  .inner {
+    height: 64px;
+  }
+}
+
+/* left brand */
+.left {
+  display: flex;
+  align-items: center;
+}
+
+/* right controls */
+.right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* language select: smaller + cleaner */
+.lang {
+  height: 40px;
+  padding: 0 12px;
+  border-radius: 14px;
+
+  border: 1px solid rgba(17, 24, 39, 0.10);
+  background: rgba(255, 255, 255, 0.75);
+
+  color: var(--color-text);
+  font-weight: 700;
+}
+
+.lang:hover {
+  border-color: rgba(17, 24, 39, 0.16);
+}
+
+.lang:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(31, 111, 122, 0.14);
+}
+
+.cta {
+  height: 40px;
+  padding: 0 16px;
+  border-radius: 14px;
+
+  font-weight: 700;          /* ipv 800/900 */
+  letter-spacing: -0.01em;   /* heel subtiel */
+  line-height: 1;            /* betere verticale centrering */
+}
+
+
+
+/* optional: hide CTA label on very small screens */
+.ctaShort {
+  display: inline;
+}
+
+@media (max-width: 380px) {
+  .ctaShort {
+    display: none;
+  }
+}
+
+.logo {
+  width: 220px;
+  height: 52px;
+  flex-shrink: 0;   /* voorkomt uitrekken in flex */
+  display: block;
+}

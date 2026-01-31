@@ -1,0 +1,376 @@
+/* === WRAPPER === */
+.wrap {
+  /* vaste "hero preview" hoogte */
+  height: clamp(720px, 52vh, 920px);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 10px;
+}
+
+/* === PHONE CONTAINER === */
+.phone {
+  position: relative;
+
+  /* phone blijft altijd even hoog binnen wrapper */
+  height: 100%;
+  max-height: 100%;
+
+  /* behoud telefoonvorm, schaal op hoogte */
+  aspect-ratio: 9 / 15;
+  width: auto;
+
+  /* fallback voor oudere browsers: cap width */
+  max-width: min(520px, 100%);
+
+  border-radius: 28px;
+  border: 1px solid rgba(21, 27, 38, 0.12);
+  background: rgba(255, 255, 255, 0.94);
+  box-shadow: var(--shadow-md);
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+}
+
+/* op kleinere screens: phone moet het scherm domineren, maar niet overspillen */
+@media (max-width: 900px) {
+  .wrap {
+    /* pak het scherm, maar laat ruimte voor header/nav indien nodig */
+    height: min(86svh, 720px);
+    width: 100%;
+    display: grid;
+    place-items: center;
+    padding: 16px;
+  }
+
+  .phone {
+    height: 100%;
+    max-height: 100%;
+    max-width: 92vw; /* cap breedte, zodat aspect-ratio niet overflowt */
+  }
+}
+
+/* extra small: iets meer ruimte, maar nog steeds svh-based */
+@media (max-width: 520px) {
+  .wrap {
+    height: min(88svh, 680px);
+    padding: 14px;
+  }
+
+  .arrow {
+    display: none;
+  }
+}
+
+
+/* === TOP BAR === */
+.phoneTop {
+  flex: 0 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 14px;
+  border-bottom: 1px solid rgba(21, 27, 38, 0.08);
+  background: rgba(248, 250, 252, 0.96);
+}
+
+.notch {
+  width: 44px;
+  height: 12px;
+  border-radius: 999px;
+  background: rgba(21, 27, 38, 0.12);
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.brandName {
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  color: var(--color-text);
+}
+
+.brandBadge {
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(0, 136, 221, 0.10);
+  border: 1px solid rgba(0, 136, 221, 0.20);
+  color: var(--color-primary);
+  font-weight: 800;
+  font-size: 12px;
+}
+
+/* === ARROWS === */
+.arrow {
+  position: absolute;
+  top: 52%;
+  transform: translateY(-50%);
+  width: 38px;
+  height: 38px;
+  border-radius: 999px;
+
+  border: 1px solid rgba(21, 27, 38, 0.12);
+  background: rgba(255, 255, 255, 0.82);
+  backdrop-filter: blur(10px);
+
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+  color: rgba(21, 27, 38, 0.78);
+
+  display: grid;
+  place-items: center;
+  font-size: 22px;
+  font-weight: 900;
+
+  cursor: pointer;
+  z-index: 5;
+}
+
+.arrow:hover {
+  background: rgba(255, 255, 255, 0.95);
+  color: rgba(21, 27, 38, 0.95);
+  border-color: rgba(21, 27, 38, 0.18);
+}
+
+.arrow:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+.arrowLeft {
+  left: 10px;
+}
+
+.arrowRight {
+  right: 10px;
+}
+
+/* Hide arrows on very small screens */
+@media (max-width: 520px) {
+  .arrow {
+    display: none;
+  }
+}
+
+/* === SINGLE SCREEN (NO CAROUSEL) === */
+.screen {
+  /* dit is de kern: screen neemt resterende hoogte in phone */
+  flex: 1 1 auto;
+  min-height: 0; /* essentieel voor overflow in children */
+
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* === SCREEN HEADER === */
+.screenHeader {
+  flex: 0 0 auto;
+
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.tag {
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(44, 81, 226, 0.10);
+  border: 1px solid rgba(44, 81, 226, 0.18);
+  color: var(--color-secondary);
+  font-weight: 800;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.headerText {
+  overflow: hidden;
+}
+
+.title {
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  color: var(--color-text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.meta {
+  margin-top: 2px;
+  font-size: 12px;
+  color: var(--color-muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* === CHAT THREAD === */
+.chat {
+  /* chat vult de ruimte, maar duwt phone niet groter */
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow: hidden;
+
+  background: rgba(255, 255, 255, 0.88);
+  border: 1px solid rgba(21, 27, 38, 0.10);
+  border-radius: 18px;
+  padding: 10px;
+  display: grid;
+  gap: 8px;
+}
+
+.row {
+  display: grid;
+  gap: 4px;
+}
+
+.left {
+  justify-items: start;
+}
+
+.right {
+  justify-items: end;
+}
+
+.bubble {
+  max-width: 92%;
+  padding: 9px 11px;
+  border-radius: 14px;
+  border: 1px solid rgba(21, 27, 38, 0.10);
+  font-size: 13.5px;
+  line-height: 1.42;
+  color: var(--color-text);
+}
+
+.bubbleClient {
+  background: rgba(248, 250, 252, 0.96);
+}
+
+.bubblePro {
+  background: rgba(0, 136, 221, 0.08);
+  border-color: rgba(0, 136, 221, 0.18);
+}
+
+.time {
+  font-size: 11px;
+  color: var(--color-muted);
+}
+
+/* === ASSIST PANEL === */
+.assist {
+  flex: 0 0 auto;
+
+  border: 1px solid rgba(0, 136, 221, 0.18);
+  background: rgba(0, 136, 221, 0.06);
+  border-radius: 18px;
+  padding: 10px;
+  display: grid;
+  gap: 8px;
+}
+
+.assistTop {
+  display: grid;
+  gap: 2px;
+}
+
+.assistTitle {
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  color: var(--color-text);
+}
+
+.assistSub {
+  font-size: 12px;
+  color: var(--color-muted);
+}
+
+/* === SUGGESTIONS === */
+.suggestions {
+  display: grid;
+  gap: 8px;
+}
+
+.suggestion {
+  background: rgba(255, 255, 255, 0.85);
+  border: 1px solid rgba(21, 27, 38, 0.10);
+  border-radius: 16px;
+  padding: 9px;
+}
+
+.chips {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-bottom: 6px;
+}
+
+.chip {
+  border-radius: 999px;
+  padding: 6px 8px;
+  border: 1px dashed rgba(44, 81, 226, 0.22);
+  background: rgba(44, 81, 226, 0.06);
+  font-size: 11.5px;
+  color: var(--color-text);
+}
+
+.chipLabel {
+  font-weight: 900;
+  color: var(--color-secondary);
+  margin-right: 4px;
+}
+
+.chipValue {
+  opacity: 0.78;
+}
+
+.sText {
+  font-size: 13.5px;
+  line-height: 1.45;
+  color: var(--color-text);
+}
+
+.note {
+  font-size: 12px;
+  color: var(--color-muted);
+}
+
+/* === DOTS === */
+.dots {
+  flex: 0 0 auto;
+
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  padding: 10px 0 12px;
+  opacity: 0.6;
+}
+
+.dots span {
+  width: 6px;
+  height: 6px;
+  border-radius: 999px;
+  background: rgba(21, 27, 38, 0.35);
+}
+
+.dotActive {
+  background: var(--color-primary);
+  opacity: 1;
+}
+
+/* === CAPTION === */
+.caption {
+  font-size: 12px;
+  color: var(--color-muted);
+  padding-left: 4px;
+}
+
+

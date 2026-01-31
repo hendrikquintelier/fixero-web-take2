@@ -1,0 +1,11 @@
+.section {
+  padding: 28px 0;
+}
+
+@media (min-width: 768px) {
+  .section { padding: 56px 0; }
+}
+
+.stack-md > * + * {
+  margin-top: 12px;
+}

@@ -1,0 +1,12 @@
+.container {
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.sm { max-width: var(--container-sm); }
+.md { max-width: var(--container-md); }
+.lg { max-width: var(--container-lg); }
+
+@media (min-width: 768px) {
+  .container { padding: 0 24px; }
+}

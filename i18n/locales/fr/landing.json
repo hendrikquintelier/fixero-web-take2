@@ -1,0 +1,40 @@
+{
+  "hero": {
+    "title": "Communiquez avec vos clients. Sans chaos.",
+    "subtitle": "Un seul endroit pour les rendez-vous, les photos, les questions et les mises à jour. Vous paraissez plus professionnel — vos clients se sentent rassurés.",
+    "cta": "Demander un accès anticipé",
+    "note": "Pas de spam. Désinscription à tout moment.",
+    "kicker": "Pour les pros qui veulent de la sérénité",
+    "ctaSecondary": "Voir comment ça marche"
+
+  },
+  "valueProps": {
+    "items": [
+      {
+        "title": "Plus professionnel",
+        "body": "Inspirez confiance avec une communication claire, par client ou par chantier."
+      },
+      {
+        "title": "Moins d’effort",
+        "body": "Moins de répétitions, moins de recherches, moins de malentendus."
+      },
+      {
+        "title": "Clair & simple",
+        "body": "Rendez-vous et photos toujours au bon endroit, faciles à retrouver."
+      },
+      {
+        "title": "Plus de sérénité",
+        "body": "Vos clients savent à quoi s’attendre — vous restez concentré."
+      }
+    ]
+  },
+  "assistant": {
+    "title": "Un assistant intelligent pour mieux répondre",
+    "subtitle": "Fixero utilise le contexte de votre conversation et propose des réponses professionnelles. Vous décidez ce que vous envoyez.",
+    "points": [
+      "Des propositions basées sur la conversation",
+      "Un ton respectueux, moins de tensions",
+      "Jamais d’envoi automatique"
+    ]
+  }
+}
