@@ -1,0 +1,44 @@
+.card {
+  width: 100%;
+  text-align: left;
+  border-radius: 18px;
+  border: 1px solid rgba(21, 27, 38, 0.10);
+  background: rgba(255, 255, 255, 0.92);
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  cursor: pointer;
+}
+
+.card:hover {
+  border-color: rgba(21, 27, 38, 0.16);
+}
+
+.selected {
+  border-color: rgba(0, 136, 221, 0.25);
+  background: rgba(0, 136, 221, 0.06);
+}
+
+.left {
+  display: grid;
+  gap: 4px;
+}
+
+.title {
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  color: var(--color-text);
+}
+
+.desc {
+  font-size: 13px;
+  color: var(--color-muted);
+  line-height: 1.45;
+}
+
+.right {
+  font-weight: 900;
+  color: var(--color-primary);
+}

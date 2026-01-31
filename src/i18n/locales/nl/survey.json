@@ -1,0 +1,95 @@
+{
+  "page": {
+    "title": "Blijf op de hoogte",
+    "subtitle": "Korte vragenlijst (±1 minuut)."
+  },
+  "progress": {
+    "label": "Vraag {{current}} van {{total}}"
+  },
+  "common": {
+    "next": "Volgende"
+  },
+  "intro": {
+    "title": "Help ons Fixero juist te bouwen",
+    "text": "We stellen je enkele korte vragen zodat Fixero perfect aansluit bij hoe jij vandaag met klanten communiceert.",
+    "cta": "Start",
+    "note": "Geen spam. Geen account. Geen verplichtingen."
+  },
+  "role": {
+    "title": "Wat is jouw situatie vandaag?",
+    "options": [
+      { "id": "solo", "label": "Zelfstandig vakman" },
+      { "id": "owner", "label": "Zaakvoerder van een bouwbedrijf" },
+      { "id": "employee", "label": "Medewerker in een bouwbedrijf" },
+      { "id": "site_manager", "label": "Projectleider / werfleider" },
+      { "id": "other", "label": "Anders" }
+    ]
+  },
+  "scale": {
+    "title": "Met hoeveel klanten heb je gemiddeld tegelijk contact?",
+    "options": [
+      { "id": "1_5", "label": "1–5" },
+      { "id": "6_15", "label": "6–15" },
+      { "id": "16_30", "label": "16–30" },
+      { "id": "30_plus", "label": "30+" }
+    ]
+  },
+  "channels": {
+    "title": "Hoe communiceer je vandaag met klanten?",
+    "help": "Meerdere keuzes mogelijk.",
+    "options": [
+      { "id": "whatsapp", "label": "WhatsApp" },
+      { "id": "phone_sms", "label": "Telefoon / sms" },
+      { "id": "email", "label": "E-mail" },
+      { "id": "messenger", "label": "Messenger" },
+      { "id": "mixed", "label": "Alles door elkaar" },
+      { "id": "other", "label": "Anders" }
+    ]
+  },
+  "frustrations": {
+    "title": "Wat vind je het lastigste aan communiceren met klanten?",
+    "help": "Kies maximaal {{max}} opties.",
+    "options": [
+      { "id": "too_many_places", "label": "Te veel berichten op verschillende plaatsen" },
+      { "id": "repeating_questions", "label": "Steeds dezelfde vragen beantwoorden" },
+      { "id": "misunderstandings", "label": "Onduidelijke afspraken / misverstanden" },
+      { "id": "outside_hours", "label": "Communicatie buiten de werkuren" },
+      { "id": "mental_load", "label": "Alles onthouden kost energie" },
+      { "id": "no_overview", "label": "Ik mis overzicht" }
+    ]
+  },
+  "assist": {
+    "title": "Zou het helpen als je voorgestelde, professionele antwoorden krijgt op basis van de chatcontext?",
+    "help": "Fixero doet voorstellen, jij beslist wat je verstuurt.",
+    "options": [
+      { "id": "yes", "label": "Ja, zeker" },
+      { "id": "maybe", "label": "Misschien" },
+      { "id": "no", "label": "Nee" }
+    ]
+  },
+  "contact": {
+    "title": "We houden je op de hoogte",
+    "help": "Laat je e-mail achter en we verwittigen je wanneer Fixero beschikbaar is voor vakmannen.",
+    "email": "E-mail",
+    "phone": "Telefoon (optioneel)",
+    "note": "We contacteren je enkel over Fixero.",
+    "submit": "Bevestigen"
+  },
+  "beta": {
+    "title": "Wil je testgebruiker worden?",
+    "help": "Optioneel. Testgebruikers krijgen vroeger toegang en kunnen mee richting geven aan Fixero.",
+    "options": [
+        { "id": "yes", "label": "Ja, graag", "desc": "Ik wil Fixero uitproberen en feedback geven." },
+        { "id": "no", "label": "Nee", "desc": "Hou me gewoon op de hoogte wanneer Fixero live is." }
+    ],
+    "motivationLabel": "Wat is je motivatie? (kort)",
+    "motivationPlaceholder": "Bijv. ik verlies veel tijd aan berichten en wil sneller professioneel kunnen antwoorden…",
+    "motivationNote": "Minstens 1 zin is genoeg.",
+    "submit": "Afronden"
+    },
+  "thanks": {
+    "title": "Bedankt!",
+    "text": "We houden je op de hoogte zodra Fixero klaar is.",
+    "backToStart": "Terug"
+  }
+}

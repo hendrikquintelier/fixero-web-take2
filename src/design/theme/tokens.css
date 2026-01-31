@@ -1,0 +1,21 @@
+:root {
+  /* === BRAND === */
+  --color-primary: #0088DD;
+  --color-secondary: #2C51E2;
+
+  --gradient-primary: linear-gradient(
+    135deg,
+    #0088DD 0%,
+    #2C51E2 100%
+  );
+
+  /* === TEXT === */
+  --color-text: #151B26;
+  --color-muted: #6B7280;
+  --color-on-primary: #FFFFFF;
+
+  /* === SURFACES === */
+  --color-bg: #F8FAFC;
+  --color-surface: #FFFFFF;
+  --color-border: rgba(21, 27, 38, 0.10);
+}

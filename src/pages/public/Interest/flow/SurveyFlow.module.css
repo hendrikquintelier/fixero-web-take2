@@ -1,0 +1,24 @@
+.card {
+  padding: 0;
+  overflow: hidden;
+}
+
+.progressWrap {
+  padding: 14px 14px 0;
+}
+
+.body {
+  padding: 14px;
+}
+
+.error {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #b42318;
+}
+
+.submitting {
+  margin-top: 10px;
+  font-size: 14px;
+  opacity: 0.8;
+}

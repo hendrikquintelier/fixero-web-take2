@@ -1,0 +1,40 @@
+{
+  "hero": {
+    "title": "Communicate with clients. Without the chaos.",
+    "subtitle": "One place for appointments, photos, questions, and updates. You look more professional — clients feel at ease.",
+    "cta": "Request early access",
+    "note": "No spam. Unsubscribe anytime.",
+    "kicker": "For professionals who want peace of mind",
+    "ctaSecondary": "See how it works"
+
+  },
+  "valueProps": {
+    "items": [
+      {
+        "title": "More professional",
+        "body": "Build trust with clear communication, per client or job site."
+      },
+      {
+        "title": "Less effort",
+        "body": "Less repeating yourself, less searching, fewer misunderstandings."
+      },
+      {
+        "title": "Clear & simple",
+        "body": "Appointments and photos always in the right place, easy to find."
+      },
+      {
+        "title": "More peace of mind",
+        "body": "Clients know what to expect — you stay focused."
+      }
+    ]
+  },
+  "assistant": {
+    "title": "A smart assistant that helps you reply",
+    "subtitle": "Fixero uses the context of your chat and suggests professional replies. You decide what gets sent.",
+    "points": [
+      "Suggestions based on the conversation",
+      "A respectful tone, fewer back-and-forth arguments",
+      "Never sends automatically"
+    ]
+  }
+}

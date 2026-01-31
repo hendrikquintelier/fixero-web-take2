@@ -1,0 +1,38 @@
+.section {
+  padding: 56px 0;
+  background: var(--color-bg);
+}
+
+.grid {
+  display: grid;
+  gap: 16px;
+}
+
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+
+.item {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 16px;
+  padding: 18px 18px;
+}
+
+.title {
+  font-family: var(--font-sans);
+  font-size: 15.5px;          /* iets kleiner */
+  font-weight: 700;           /* geen 800/900 */
+  letter-spacing: -0.01em;
+  color: var(--color-text);
+}
+
+.body {
+  margin-top: 6px;
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--color-muted);
+}

@@ -1,0 +1,102 @@
+{
+  "page": {
+    "title": "Stay informed",
+    "subtitle": "Help us build Fixero for construction professionals."
+  },
+
+  "intro": {
+    "title": "Help us build Fixero the right way",
+    "text": "We’ll ask you a few short questions so Fixero truly fits how you communicate with your clients today.",
+    "cta": "Start",
+    "note": "Takes less than a minute. No commitment."
+  },
+
+  "role": {
+    "title": "What best describes your role?",
+    "options": [
+      { "id": "independent", "label": "Independent contractor" },
+      { "id": "owner", "label": "Business owner" },
+      { "id": "employee", "label": "Employee in a construction company" },
+      { "id": "manager", "label": "Site manager / project manager" },
+      { "id": "other", "label": "Other" }
+    ],
+    "next": "Continue"
+  },
+
+  "scale": {
+    "title": "How many clients are you usually in contact with at the same time?",
+    "options": [
+      { "id": "1-5", "label": "1–5" },
+      { "id": "6-15", "label": "6–15" },
+      { "id": "16-30", "label": "16–30" },
+      { "id": "30+", "label": "30+" }
+    ],
+    "next": "Continue"
+  },
+
+  "channels": {
+    "title": "How do you currently communicate with your clients?",
+    "help": "Multiple answers possible.",
+    "options": [
+      { "id": "whatsapp", "label": "WhatsApp" },
+      { "id": "phone", "label": "Phone / SMS" },
+      { "id": "email", "label": "Email" },
+      { "id": "messenger", "label": "Messenger / social media" },
+      { "id": "mixed", "label": "A mix of everything" },
+      { "id": "other", "label": "Other" }
+    ],
+    "next": "Continue"
+  },
+
+  "frustrations": {
+    "title": "What do you find most frustrating about client communication?",
+    "help": "Select up to 2.",
+    "options": [
+      { "id": "scattered", "label": "Messages spread across different apps" },
+      { "id": "repeating", "label": "Answering the same questions over and over" },
+      { "id": "unclear", "label": "Unclear agreements or appointments" },
+      { "id": "afterhours", "label": "Messages outside working hours" },
+      { "id": "mental_load", "label": "Keeping everything in my head is exhausting" },
+      { "id": "no_overview", "label": "Lack of clear overview" }
+    ],
+    "next": "Continue"
+  },
+
+  "assist": {
+    "title": "Would an assistant suggesting professional replies help you?",
+    "options": [
+      { "id": "yes", "label": "Yes, definitely" },
+      { "id": "maybe", "label": "Maybe" },
+      { "id": "no", "label": "No" }
+    ],
+    "next": "Continue"
+  },
+
+  "contact": {
+    "title": "We’ll keep you informed",
+    "text": "Leave your contact details and we’ll notify you when Fixero becomes available.",
+    "emailLabel": "Email address",
+    "phoneLabel": "Phone number (optional)",
+    "submit": "Confirm",
+    "note": "We’ll only contact you about Fixero."
+  },
+
+  "beta": {
+    "title": "Would you like to become a test user?",
+    "help": "Optional. Test users get early access and can help shape Fixero.",
+    "options": [
+      { "id": "yes", "label": "Yes, I’d like that", "desc": "I want to try Fixero and give feedback." },
+      { "id": "no", "label": "No", "desc": "Just keep me informed." }
+    ],
+    "motivationLabel": "Your motivation (brief)",
+    "motivationPlaceholder": "For example: I spend too much time managing client messages…",
+    "motivationNote": "One short sentence is enough.",
+    "submit": "Finish"
+  },
+
+  "thanks": {
+    "title": "Thank you",
+    "text": "We’ll let you know as soon as Fixero is ready.",
+    "back": "Back to the website"
+  }
+}

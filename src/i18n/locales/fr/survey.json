@@ -1,0 +1,102 @@
+{
+  "page": {
+    "title": "Restez informé",
+    "subtitle": "Aidez-nous à construire Fixero pour les professionnels du bâtiment."
+  },
+
+  "intro": {
+    "title": "Aidez-nous à bien concevoir Fixero",
+    "text": "Nous vous posons quelques questions courtes afin que Fixero corresponde réellement à votre manière de communiquer avec vos clients.",
+    "cta": "Commencer",
+    "note": "Moins d’une minute. Aucun engagement."
+  },
+
+  "role": {
+    "title": "Quelle est votre situation professionnelle ?",
+    "options": [
+      { "id": "independent", "label": "Indépendant" },
+      { "id": "owner", "label": "Gérant / patron d’entreprise" },
+      { "id": "employee", "label": "Employé dans une entreprise du bâtiment" },
+      { "id": "manager", "label": "Chef de chantier / conducteur de travaux" },
+      { "id": "other", "label": "Autre" }
+    ],
+    "next": "Continuer"
+  },
+
+  "scale": {
+    "title": "Avec combien de clients êtes-vous en contact en même temps ?",
+    "options": [
+      { "id": "1-5", "label": "1 à 5" },
+      { "id": "6-15", "label": "6 à 15" },
+      { "id": "16-30", "label": "16 à 30" },
+      { "id": "30+", "label": "Plus de 30" }
+    ],
+    "next": "Continuer"
+  },
+
+  "channels": {
+    "title": "Comment communiquez-vous aujourd’hui avec vos clients ?",
+    "help": "Plusieurs réponses possibles.",
+    "options": [
+      { "id": "whatsapp", "label": "WhatsApp" },
+      { "id": "phone", "label": "Téléphone / SMS" },
+      { "id": "email", "label": "E-mail" },
+      { "id": "messenger", "label": "Messenger / réseaux sociaux" },
+      { "id": "mixed", "label": "Un mélange de tout" },
+      { "id": "other", "label": "Autre" }
+    ],
+    "next": "Continuer"
+  },
+
+  "frustrations": {
+    "title": "Qu’est-ce qui vous gêne le plus dans la communication avec les clients ?",
+    "help": "Maximum 2 choix.",
+    "options": [
+      { "id": "scattered", "label": "Messages éparpillés sur plusieurs applications" },
+      { "id": "repeating", "label": "Répéter sans cesse les mêmes informations" },
+      { "id": "unclear", "label": "Rendez-vous ou accords peu clairs" },
+      { "id": "afterhours", "label": "Messages en dehors des heures de travail" },
+      { "id": "mental_load", "label": "Tout garder en tête me fatigue" },
+      { "id": "no_overview", "label": "Manque de vue d’ensemble" }
+    ],
+    "next": "Continuer"
+  },
+
+  "assist": {
+    "title": "Est-ce qu’un assistant proposant des réponses professionnelles pourrait vous aider ?",
+    "options": [
+      { "id": "yes", "label": "Oui, clairement" },
+      { "id": "maybe", "label": "Peut-être" },
+      { "id": "no", "label": "Non" }
+    ],
+    "next": "Continuer"
+  },
+
+  "contact": {
+    "title": "Nous vous tenons informé",
+    "text": "Laissez-nous vos coordonnées et nous vous préviendrons dès que Fixero sera disponible.",
+    "emailLabel": "Adresse e-mail",
+    "phoneLabel": "Téléphone (optionnel)",
+    "submit": "Confirmer",
+    "note": "Nous vous contacterons uniquement à propos de Fixero."
+  },
+
+  "beta": {
+    "title": "Souhaitez-vous devenir testeur ?",
+    "help": "Optionnel. Les testeurs ont un accès anticipé et peuvent donner leur avis.",
+    "options": [
+      { "id": "yes", "label": "Oui, avec plaisir", "desc": "Je souhaite tester Fixero et partager mon retour." },
+      { "id": "no", "label": "Non", "desc": "Je veux simplement rester informé." }
+    ],
+    "motivationLabel": "Votre motivation (en quelques mots)",
+    "motivationPlaceholder": "Par exemple : je perds beaucoup de temps à gérer les messages clients…",
+    "motivationNote": "Une phrase suffit.",
+    "submit": "Finaliser"
+  },
+
+  "thanks": {
+    "title": "Merci",
+    "text": "Nous vous tiendrons informé dès que Fixero sera prêt.",
+    "back": "Retour au site"
+  }
+}

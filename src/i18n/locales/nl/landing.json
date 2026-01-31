@@ -1,0 +1,321 @@
+{
+  "hero": {
+    "title": "Communiceer met je klanten. Professioneel, zonder gedoe.",
+    "subtitle": "Eén plek voor afspraken, foto’s, vragen en updates. Jij komt professioneel over in één klik — klanten voelen rust. Fixero houdt jouw agenda up-to-date.",
+    "cta": "Blijf op de hoogte",
+    "note": "We bouwen Fixero voor vakmannen zoals jij. Meld je aan voor vroege toegang en help mee vormgeven.",
+    "kicker": "Voor vakmannen die rust willen",
+    "ctaSecondary": "Bekijk hoe het werkt"
+
+  },
+  "valueProps": {
+  "items": [
+    {
+      "title": "Professionele uitstraling",
+      "body": "Alle communicatie per klant of werf op één plek. Geen losse WhatsApp-gesprekken meer."
+    },
+    {
+      "title": "Minder herhaling",
+      "body": "Afspraken, foto’s en vragen blijven bewaard. Je hoeft jezelf niet constant te herhalen."
+    },
+    {
+      "title": "Duidelijke afspraken",
+      "body": "Klanten weten waar ze aan toe zijn. Dat voorkomt misverstanden en discussies."
+    },
+    {
+      "title": "Meer rust in je hoofd",
+      "body": "Je communicatie is overzichtelijk. Jij houdt focus op je werk."
+    }
+  ]
+}
+, "heroAssist": {
+  "badge": "Assist",
+  "assistTitle": "Fixero Assist",
+  "assistSub": "Stelt antwoorden voor op basis van context",
+  "note": "Voorbeeld — jij behoudt altijd controle.",
+  "caption": "Swipe door 5 typische situaties uit de bouw.",
+  "screens": [
+    {
+      "id": "h1",
+      "tag": "Planning",
+      "title": "Familie Peeters",
+      "meta": "Oprit + drainage • Heverlee",
+      "thread": [
+        { "from": "client", "text": "Kan je morgen zeker komen? Oprit is gedeeld met de buren.", "time": "07:38" },
+        { "from": "client", "text": "Hoe laat ongeveer? Moeten we de auto wegzetten?", "time": "07:39" },
+        { "from": "pro", "text": "Ik check mijn route & materiaal en kom zo terug met een uur.", "time": "07:46" }
+      ],
+      "suggestions": [
+        {
+          "chips": [
+            { "label": "Dag", "value": "morgen" },
+            { "label": "Uur", "value": "08:30" },
+            { "label": "Vrij vanaf", "value": "08:15" }
+          ],
+          "text": "Ik ben er morgen rond 08:30. Graag de oprit vrij vanaf 08:15 (auto’s even weg). Ik stuur straks ook de planning voor de rest van de week."
+        },
+        {
+          "text": "Ik werk in fases zodat de buren kunnen passeren. Ik bevestig zo meteen het uur + verwachte duur, dan weten jullie exact waar jullie aan toe zijn."
+        }
+      ]
+    },
+
+    {
+      "id": "h2",
+      "tag": "Offerte",
+      "title": "Project: Badkamer",
+      "meta": "Inloopdouche + tegels • Mechelen",
+      "thread": [
+        { "from": "client", "text": "Kan je een richtprijs geven? Badkamer is 2,4m x 2,1m.", "time": "18:12" },
+        { "from": "client", "text": "En hoelang duurt het? (droogtijd?)", "time": "18:13" },
+        { "from": "pro", "text": "Ik kan al een bandbreedte geven + planning. Tegelkeuze maakt verschil.", "time": "18:20" }
+      ],
+      "suggestions": [
+        {
+          "chips": [
+            { "label": "Min", "value": "€ 6.800" },
+            { "label": "Max", "value": "€ 9.800" },
+            { "label": "Duur", "value": "7–10 dagen" }
+          ],
+          "text": "Richtprijs incl. btw: € 6.800–€ 9.800 (afhankelijk van tegelkeuze/afwerking). Duur: 7–10 werkdagen incl. droogtijd. Ik kom graag kort opmeten en stuur daarna een gespecificeerde offerte."
+        },
+        {
+          "text": "Ik zet de posten duidelijk apart (materiaal/werk/opties) zodat je exact ziet waarvoor je betaalt."
+        }
+      ]
+    },
+
+    {
+      "id": "h3",
+      "tag": "Probleem",
+      "title": "Familie Janssens",
+      "meta": "Dakherstelling • Tienen",
+      "thread": [
+        { "from": "client", "text": "We zien terug wat druppels aan het raam 😕 Is dit garantie?", "time": "07:07" },
+        { "from": "pro", "text": "Stuur 2 foto’s (binnen + buiten dakrand), dan pak ik dit meteen op.", "time": "07:12" }
+      ],
+      "suggestions": [
+        {
+          "chips": [
+            { "label": "Bezoek", "value": "vandaag 17:45" }
+          ],
+          "text": "Dank je om dit meteen te melden. Ik kom vandaag om 17:45 kijken. Als het verband houdt met onze werken, lossen we dit uiteraard onder garantie op. Anders bespreek ik eerst oplossing + kost vóór we iets doen."
+        },
+        {
+          "text": "Met foto’s kan ik al inschatten of het bv. voeg/lood/dakgoot is, zodat we meteen het juiste materiaal mee hebben."
+        }
+      ]
+    },
+
+    {
+      "id": "h4",
+      "tag": "Meerwerk",
+      "title": "Werf: Gevel",
+      "meta": "Extra verzoek • Leuven centrum",
+      "thread": [
+        { "from": "client", "text": "Kun je ook ineens dat muurtje naast de garage mee doen?", "time": "12:04" },
+        { "from": "client", "text": "Wat zou dat extra kosten? We willen geen verrassingen.", "time": "12:05" },
+        { "from": "pro", "text": "Helemaal terecht. Ik maak het even concreet met prijs + impact op timing.", "time": "12:09" }
+      ],
+      "suggestions": [
+        {
+          "chips": [
+            { "label": "Meerwerk", "value": "€ 420" },
+            { "label": "Extra tijd", "value": "+ 0,5 dag" }
+          ],
+          "text": "Dat kan. Voor dat muurtje is het meerwerk € 420 incl. btw (materiaal + arbeid) en het schuift de planning met ongeveer een halve dag. Als je akkoord bent, zet ik het meteen op papier zodat alles duidelijk blijft."
+        },
+        {
+          "text": "Ik bevestig ook kort wat precies inbegrepen is (voorbereiding, afwerking), zodat er geen misverstanden zijn."
+        }
+      ]
+    },
+
+    {
+      "id": "h5",
+      "tag": "Factuur",
+      "title": "Familie Martens",
+      "meta": "Renovatie • Hasselt",
+      "thread": [
+        { "from": "client", "text": "Kan je de factuur nog eens sturen? We vinden ze niet terug.", "time": "09:41" },
+        { "from": "client", "text": "En wat was de betalingsreferentie ook alweer?", "time": "09:42" }
+      ],
+      "suggestions": [
+        {
+          "chips": [
+            { "label": "Ref", "value": "FV-2026-014" }
+          ],
+          "text": "Zeker. Ik stuur de factuur meteen opnieuw door. Betaling kan via overschrijving met referentie FV-2026-014. Laat gerust weten als ik iets moet aanpassen."
+        },
+        {
+          "text": "Ik zet ook even de vervaldatum erbij, dan is alles meteen compleet."
+        }
+      ]
+    }
+  ]
+}
+,
+  "assistantMobile": {
+  "kicker": "Voorbeeld op mobile (vakman)",
+  "title": "Fixero Assist stelt antwoorden voor in je chat",
+  "subtitle": "Op basis van de context krijg je 2–3 professionele replies. Soms vul je nog details in (uur, datum, bedrag).",
+  "badge": "Assist",
+  "caption": "Voorbeeldweergave — de echte assistent gebruikt jouw gesprekken als context.",
+  "drawer": {
+    "title": "Fixero Assist",
+    "sub": "Kies een reply, vul details in, en verstuur.",
+    "tapToEdit": "Tik om in te vullen",
+    "suggested": "Voorgestelde reply",
+    "use": "Gebruik",
+    "edit": "Bewerk",
+    "note": "Fixero verstuurt nooit automatisch. Jij houdt controle."
+  },
+  "composer": {
+    "placeholder": "Typ je antwoord…",
+    "send": "Stuur"
+  },
+  "scenarios": [
+  {
+    "id": "sc1",
+    "tag": "Planning",
+    "title": "Familie Peeters",
+    "meta": "Oprit + drainage • Leuven (Heverlee)",
+    "thread": [
+      { "from": "client", "text": "Dag Hendrik, kan je morgen zeker komen? 🙏 We moeten dit afstemmen met de buren want de oprit is gedeeld.", "time": "07:38" },
+      { "from": "client", "text": "En hoe laat ongeveer? We willen ook weten of we de auto weg moeten zetten.", "time": "07:39" },
+      { "from": "pro", "text": "Goedemorgen! Ik ben nu op een werf in Kessel-Lo. Ik check mijn route & materiaal en kom zo terug met een concreet uur.", "time": "07:46" },
+      { "from": "client", "text": "Top. Btw: er is een levering zand voorzien. Is dat oké dat die op straat staat tot jij er bent?", "time": "07:49" }
+    ],
+    "suggestions": [
+      {
+        "id": "s1",
+        "title": "Duidelijk & praktisch",
+        "textTemplate": "Goedemorgen! Ik ben er {dag} rond {uur}. Graag de oprit vrijmaken vanaf {vrijVanaf} (auto’s even wegzetten). Zand mag op straat, liefst tegen de boordsteen aan de {kant}. Ik stuur je vanavond ook even de planning voor de rest van de week.",
+        "fields": [
+          { "id": "dag", "label": "Dag", "placeholder": "morgen", "value": "" },
+          { "id": "uur", "label": "Uur", "placeholder": "08:00", "value": "" },
+          { "id": "vrijVanaf", "label": "Vrij vanaf", "placeholder": "07:45", "value": "" },
+          { "id": "kant", "label": "Kant", "placeholder": "rechterkant", "value": "" }
+        ]
+      },
+      {
+        "id": "s2",
+        "title": "Professioneel",
+        "textTemplate": "Goedemorgen! Ik bevestig: ik kom {dag} om {uur}. Voor de gedeelde oprit: ik werk in fases zodat de buren altijd nog kunnen passeren. Graag de oprit vrij vanaf {vrijVanaf}. Levering zand: oké op straat, graag op {kant}. Ik geef je straks ook de planning (incl. verwachte duur).",
+        "fields": [
+          { "id": "dag", "label": "Dag", "placeholder": "morgen", "value": "" },
+          { "id": "uur", "label": "Uur", "placeholder": "08:30", "value": "" },
+          { "id": "vrijVanaf", "label": "Vrij vanaf", "placeholder": "08:15", "value": "" },
+          { "id": "kant", "label": "Kant", "placeholder": "links aan de haag", "value": "" }
+        ]
+      },
+      {
+        "id": "s3",
+        "title": "Rustgevend",
+        "textTemplate": "Geen stress — ik maak het meteen concreet. Ik ben er {dag} rond {uur}. Als jullie de oprit vrijmaken vanaf {vrijVanaf}, loopt alles vlot. Zand mag op straat blijven staan; ik gebruik het meteen bij aankomst. Ik stuur je straks ook even de planning voor de komende dagen.",
+        "fields": [
+          { "id": "dag", "label": "Dag", "placeholder": "morgen", "value": "" },
+          { "id": "uur", "label": "Uur", "placeholder": "09:00", "value": "" },
+          { "id": "vrijVanaf", "label": "Vrij vanaf", "placeholder": "08:45", "value": "" }
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": "sc2",
+    "tag": "Offerte",
+    "title": "Project: Badkamer",
+    "meta": "Tegels + inloopdouche • Mechelen",
+    "thread": [
+      { "from": "client", "text": "Hey, nog eens sorry dat ik blijf sturen 😅 maar kan je een richtprijs geven voor: inloopdouche + wandtegels + vloer? (badkamer is 2,4m x 2,1m)", "time": "18:12" },
+      { "from": "client", "text": "En hoelang duurt zoiets? We willen weten of we ergens anders moeten douchen 😬", "time": "18:13" },
+      { "from": "pro", "text": "Geen probleem. Ik wil het correct inschatten: afvoer/leidingen en keuze tegels maken verschil. Ik kan wel al een bandbreedte geven + planning.", "time": "18:20" }
+    ],
+    "suggestions": [
+      {
+        "id": "s1",
+        "title": "Bandbreedte + stappenplan",
+        "textTemplate": "Ik kan je al een realistische bandbreedte geven. Voor een badkamer van 2,4 x 2,1m: richtprijs incl. btw ligt meestal tussen {min} en {max}, afhankelijk van tegelkeuze en afwerking. Duur: {duur} werkdagen (incl. droogtijd). Volgende stap: ik kom kort opmeten (15 min) en dan stuur ik een offerte met duidelijke posten (materiaal/werk/opties). Past {dag} om {uur}?",
+        "fields": [
+          { "id": "min", "label": "Min", "placeholder": "€ 6.500", "value": "" },
+          { "id": "max", "label": "Max", "placeholder": "€ 9.500", "value": "" },
+          { "id": "duur", "label": "Duur", "placeholder": "7–9", "value": "" },
+          { "id": "dag", "label": "Dag", "placeholder": "donderdag", "value": "" },
+          { "id": "uur", "label": "Uur", "placeholder": "17:30", "value": "" }
+        ]
+      },
+      {
+        "id": "s2",
+        "title": "Kort & professioneel",
+        "textTemplate": "Voor 2,4 x 2,1m zit je meestal tussen {min} en {max} incl. btw (afhankelijk van tegelkeuze en douche-afwerking). Rekening houden met {duur} werkdagen. Als je wil, plan ik een korte opmeting en stuur ik daarna een gespecificeerde offerte. Past {dag} om {uur}?",
+        "fields": [
+          { "id": "min", "label": "Min", "placeholder": "€ 7.000", "value": "" },
+          { "id": "max", "label": "Max", "placeholder": "€ 10.000", "value": "" },
+          { "id": "duur", "label": "Duur", "placeholder": "8", "value": "" },
+          { "id": "dag", "label": "Dag", "placeholder": "woensdag", "value": "" },
+          { "id": "uur", "label": "Uur", "placeholder": "18:00", "value": "" }
+        ]
+      },
+      {
+        "id": "s3",
+        "title": "Rust + duidelijkheid",
+        "textTemplate": "Ik snap het, je wil gewoon weten waar je aan toe bent. Ik kan je al een goede indicatie geven: {min}–{max} incl. btw. De werken duren meestal {duur} werkdagen (droogtijd inbegrepen). Ik stel voor dat ik kort kom opmeten en dan stuur ik dezelfde dag een duidelijke offerte. Past {dag} om {uur}?",
+        "fields": [
+          { "id": "min", "label": "Min", "placeholder": "€ 6.800", "value": "" },
+          { "id": "max", "label": "Max", "placeholder": "€ 9.800", "value": "" },
+          { "id": "duur", "label": "Duur", "placeholder": "7–10", "value": "" },
+          { "id": "dag", "label": "Dag", "placeholder": "vrijdag", "value": "" },
+          { "id": "uur", "label": "Uur", "placeholder": "16:30", "value": "" }
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": "sc3",
+    "tag": "Probleem",
+    "title": "Familie Janssens",
+    "meta": "Dakherstelling • Tienen",
+    "thread": [
+      { "from": "client", "text": "Hey, we zien terug wat druppels aan het raam 😕 Het is niet erg hard maar toch.", "time": "06:58" },
+      { "from": "client", "text": "Kan je vandaag nog langskomen? We zijn pas thuis na 17u.", "time": "06:59" },
+      { "from": "pro", "text": "Dank je om het te melden. Ik wil dit snel en correct aanpakken. Kan je mij 2 foto’s sturen van (1) binnen aan het raam en (2) buiten zicht op de dakrand?", "time": "07:05" },
+      { "from": "client", "text": "Ja kan. En is dit garantie eigenlijk?", "time": "07:07" }
+    ],
+    "suggestions": [
+      {
+        "id": "s1",
+        "title": "Garantievriendelijk",
+        "textTemplate": "Dank je om dit meteen te melden. Stuur gerust 2 foto’s (binnen + buiten). Ik kom {dag} om {uur} kijken. Als het verband houdt met de uitgevoerde werken, lossen we dit uiteraard onder garantie op. Als het een nieuwe oorzaak is (bv. voeg/lood/dakgoot), bespreek ik ter plaatse de beste oplossing + kostprijs vóór we iets uitvoeren.",
+        "fields": [
+          { "id": "dag", "label": "Dag", "placeholder": "vandaag", "value": "" },
+          { "id": "uur", "label": "Uur", "placeholder": "17:30", "value": "" }
+        ]
+      },
+      {
+        "id": "s2",
+        "title": "Snel + geruststellend",
+        "textTemplate": "Ik pak dit meteen op. Stuur 2 foto’s (binnen aan het raam + buiten dakrand) en ik kom {dag} rond {uur}. We bekijken ter plaatse waar het vandaan komt en ik leg duidelijk uit wat de oorzaak is. Indien het aan onze werken ligt, valt dit onder garantie.",
+        "fields": [
+          { "id": "dag", "label": "Dag", "placeholder": "vandaag", "value": "" },
+          { "id": "uur", "label": "Uur", "placeholder": "18:00", "value": "" }
+        ]
+      },
+      {
+        "id": "s3",
+        "title": "Met stappen",
+        "textTemplate": "Goed dat je dit snel aangeeft. Stuur 2 foto’s (binnen + buiten) + een korte video van 10 sec als het lukt. Ik kan {dag} om {uur} komen. Daarna geef ik je meteen: (1) oorzaak, (2) oplossing, (3) timing. Als het door onze vorige werken komt, is dit garantie.",
+        "fields": [
+          { "id": "dag", "label": "Dag", "placeholder": "vandaag", "value": "" },
+          { "id": "uur", "label": "Uur", "placeholder": "17:45", "value": "" }
+        ]
+      }
+    ]
+  }
+]
+
+}
+
+
+}
